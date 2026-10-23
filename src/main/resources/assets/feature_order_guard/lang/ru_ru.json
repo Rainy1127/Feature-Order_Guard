@@ -1,0 +1,14 @@
+{
+  "feature_order_guard.configuration.title": "Feature Order Guard",
+  "feature_order_guard.configuration.section.feature.order.guard.startup.toml": "Настройки запуска",
+  "feature_order_guard.configuration.section.feature.order.guard.startup.toml.title": "Feature Order Guard: настройки запуска",
+  "feature_order_guard.configuration.strategy": "Стратегия",
+  "feature_order_guard.configuration.strategy.tooltip": "Что делать с крашем «Feature order cycle found».\nRESOLVE: исправить порядок минимальными изменениями и продолжить загрузку.\nREPORT_ONLY: записать отчёт и упасть, как в ванили.\nCRASH: ничего не делать (чистая ваниль).\nНужен перезапуск игры.",
+  "feature_order_guard.configuration.write_report_file": "Писать файл отчёта",
+  "feature_order_guard.configuration.write_report_file.tooltip": "Писать logs/feature_order_guard-report.txt. Краткая сводка в логе есть всегда.",
+  "feature_order_guard.command.header": "Feature Order Guard: стратегия %s",
+  "feature_order_guard.command.none": "В этой сессии циклов порядка фич нет. Ничего не изменено.",
+  "feature_order_guard.command.summary": "Циклов: %s, источников биомов: %s, удалено рёбер порядка: %s.",
+  "feature_order_guard.command.more": "... и ещё %s",
+  "feature_order_guard.command.file": "Полный отчёт: %s"
+}

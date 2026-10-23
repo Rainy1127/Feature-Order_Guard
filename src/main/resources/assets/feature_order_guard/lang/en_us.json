@@ -1,0 +1,14 @@
+{
+  "feature_order_guard.configuration.title": "Feature Order Guard",
+  "feature_order_guard.configuration.section.feature.order.guard.startup.toml": "Startup settings",
+  "feature_order_guard.configuration.section.feature.order.guard.startup.toml.title": "Feature Order Guard - startup settings",
+  "feature_order_guard.configuration.strategy": "Strategy",
+  "feature_order_guard.configuration.strategy.tooltip": "What to do with a \"Feature order cycle found\" crash.\nRESOLVE: fix the order with the fewest changes and keep loading.\nREPORT_ONLY: write the report, then crash like vanilla.\nCRASH: do nothing (pure vanilla).\nNeeds a game restart.",
+  "feature_order_guard.configuration.write_report_file": "Write report file",
+  "feature_order_guard.configuration.write_report_file.tooltip": "Write logs/feature_order_guard-report.txt. The log always gets a short summary.",
+  "feature_order_guard.command.header": "Feature Order Guard - strategy %s",
+  "feature_order_guard.command.none": "No feature order cycles in this session. Nothing was changed.",
+  "feature_order_guard.command.summary": "%s cycle(s) in %s biome source(s), %s ordering edge(s) removed.",
+  "feature_order_guard.command.more": "... and %s more",
+  "feature_order_guard.command.file": "Full report: %s"
+}
